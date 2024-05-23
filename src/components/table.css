@@ -1,0 +1,39 @@
+.search-bar {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-bar input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #959595;
+}
+
+table {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #7ea8f8;
+  border-style: solid;
+}
+
+table td,
+table th {
+  border-width: 2px;
+  border-color: #7ea8f8;
+  border-style: solid;
+  text-align: left;
+  padding: 8px;
+}
+
+table thead {
+  background-color: #7ea8f8;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
